@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{DAC4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Catalog", "MultiShop.Catalog\MultiShop.Catalog.csproj", "{EF707AB7-FD79-4456-8395-D231C26AE018}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{2082F8DD-1A53-4ECE-8840-D2C1DE18B99B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Discount", "Services\Discount\MultiShop.Discount\MultiShop.Discount.csproj", "{D6F3768B-7C7F-424D-93B8-BDA1732B70C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,11 +18,17 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DAC485D3-F972-4A12-8C47-E7F57B09B264} = {A4A5E422-DA9F-4162-83BD-49414AC46E23}
 		{EF707AB7-FD79-4456-8395-D231C26AE018} = {DAC485D3-F972-4A12-8C47-E7F57B09B264}
+		{2082F8DD-1A53-4ECE-8840-D2C1DE18B99B} = {A4A5E422-DA9F-4162-83BD-49414AC46E23}
+		{D6F3768B-7C7F-424D-93B8-BDA1732B70C6} = {2082F8DD-1A53-4ECE-8840-D2C1DE18B99B}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EF707AB7-FD79-4456-8395-D231C26AE018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF707AB7-FD79-4456-8395-D231C26AE018}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF707AB7-FD79-4456-8395-D231C26AE018}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF707AB7-FD79-4456-8395-D231C26AE018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F3768B-7C7F-424D-93B8-BDA1732B70C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F3768B-7C7F-424D-93B8-BDA1732B70C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F3768B-7C7F-424D-93B8-BDA1732B70C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F3768B-7C7F-424D-93B8-BDA1732B70C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
