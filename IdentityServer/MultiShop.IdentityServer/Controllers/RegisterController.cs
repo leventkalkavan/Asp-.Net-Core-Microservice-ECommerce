@@ -1,3 +1,5 @@
+using Duende.IdentityServer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +10,7 @@ namespace MultiShop.IdentityServer.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(IdentityServerConstants.LocalApi.PolicyName)]
     public class RegisterController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
