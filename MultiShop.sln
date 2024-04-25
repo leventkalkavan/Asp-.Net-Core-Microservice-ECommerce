@@ -26,6 +26,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Persistence
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.WebAPI", "Services\Order\Presentation\MultiShop.Order.WebAPI\MultiShop.Order.WebAPI.csproj", "{03AC4CC1-2B63-44E1-876D-46749E005AA2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{30301E41-E6CD-4D1E-834F-00153B38FF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", "IdentityServer\MultiShop.IdentityServer\MultiShop.IdentityServer.csproj", "{9DAE4800-01AA-4C78-B0A3-2C78A9B70EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{2A0ECAA2-1D43-43E3-9132-2E45CCCB5412}"
+	ProjectSection(SolutionItems) = preProject
+		PortainerCmd.txt = PortainerCmd.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +53,7 @@ Global
 		{43AAD9BF-A582-4259-B841-39E81968190A} = {603B4EAC-4E28-4EC4-B67B-18A39AB72E27}
 		{5E0CA8B6-5A62-4F80-83BD-1150B1910D37} = {4856F6C9-0CF7-4C72-AE68-53467DE69648}
 		{03AC4CC1-2B63-44E1-876D-46749E005AA2} = {24A9D652-A88A-489E-8EE0-9070714E97B6}
+		{9DAE4800-01AA-4C78-B0A3-2C78A9B70EF3} = {30301E41-E6CD-4D1E-834F-00153B38FF98}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EF707AB7-FD79-4456-8395-D231C26AE018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -70,5 +80,9 @@ Global
 		{03AC4CC1-2B63-44E1-876D-46749E005AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03AC4CC1-2B63-44E1-876D-46749E005AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03AC4CC1-2B63-44E1-876D-46749E005AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAE4800-01AA-4C78-B0A3-2C78A9B70EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAE4800-01AA-4C78-B0A3-2C78A9B70EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAE4800-01AA-4C78-B0A3-2C78A9B70EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAE4800-01AA-4C78-B0A3-2C78A9B70EF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
